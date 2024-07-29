@@ -1,0 +1,55 @@
+node_modules/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+
+# macOS specific files
+.DS_Store
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+.ntvs
+*.njsproj
+*.sln
+*.sw?
+
+# Go specific files and directories
+/bin/
+/pkg/
+/vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go modules
+go.sum
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Temporary files
+*.log
+*.tmp
+
+# Project-specific files and directories
+.envrc
